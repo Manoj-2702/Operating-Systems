@@ -29,6 +29,7 @@ void completionTime(int num, vector<vector<int>> &matrix)
     matrix[3][0] = matrix[1][0] + matrix[2][0];
     matrix[5][0] = matrix[3][0] - matrix[1][0];
     matrix[4][0] = matrix[5][0] - matrix[2][0];
+
     for (int i = 1; i < num; i++)
     {
         temp = matrix[3][i - 1];
